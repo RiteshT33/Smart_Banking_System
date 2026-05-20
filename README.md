@@ -57,14 +57,20 @@ A PostgreSQL-based Smart Banking System designed to simulate real-world banking 
 ## How to Run
 
 1. Create a PostgreSQL database
-2. Execute files in this order:
 
-```sql
-schema.sql
-sample_data.sql
-functions.sql
-triggers.sql
-views.sql
-cursors.sql
-testing.sql
-```
+2. Execute files in the following order:
+
+   - schema.sql
+   - sample_data.sql
+   - queries.sql
+   - functions.sql
+   - triggers.sql
+   - views.sql
+   - cursors.sql
+   - testing.sql
+
+---
+
+## ER Diagram
+
+![ER Diagram](ER_diagram.png)
